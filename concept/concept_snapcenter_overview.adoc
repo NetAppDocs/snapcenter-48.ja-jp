@@ -52,10 +52,7 @@ SnapCenter の主な機能は次のとおりです。
 データ保護は、 ONTAP システムで実行されている Microsoft Exchange Server 、 Microsoft SQL Server 、 Linux または AIX 上の Oracle データベース、 SAP HANA データベース、および Windows ホストファイルシステムでサポートされます。
 
 +
-ユーザ定義の SnapCenter プラグインを作成するためのフレームワークを提供することで、他の標準またはカスタムのアプリケーションやデータベースでもデータ保護がサポートされます。これにより、 1 つの画面で他のアプリケーションやデータベースのデータを保護することができます。このフレームワークを活用して、ネットアップは IBM DB2 、 MongoDB 、 MySQL など用の SnapCenter カスタムプラグインを NetApp Automation Store でリリースしました。
-
-+
-https://automationstore.netapp.com/home.shtml["NetApp Storage Automation Store の略"^]
+ユーザ定義のSnapCenterプラグインを作成するフレームワークを提供することで、他の標準またはカスタムのアプリケーションやデータベースでもデータ保護がサポートされます。これにより、同じ単一コンソールから他のアプリケーションやデータベースのデータを保護できます。このフレームワークを活用することで、NetAppはIBM DB2、MongoDB、MySQL向けのSnapCenterカスタムプラグインをリリースしました。
 
 * ポリシーベースのバックアップ
 +
@@ -85,7 +82,7 @@ SnapCenter には、ほとんどの機能をオーケストレーションソフ
 REST APIの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter/sc-automation/overview_rest_apis.html["REST APIの概要"]。
 
 +
-Windowsコマンドレットの詳細については、を参照してください https://library.netapp.com/ecm/ecm_download_file/ECMLP2885482["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+Windowsコマンドレットの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter-cmdlets-48/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 +
 UNIXコマンドの詳細については、を参照してください https://library.netapp.com/ecm/ecm_download_file/ECMLP2885486["SnapCenter ソフトウェアコマンドリファレンスガイド"^]。
@@ -158,7 +155,7 @@ NOTE: SnapCenter Plug-in for UNIX はスタンドアロンのプラグインで�
 
 * SnapCenter カスタムプラグイン
 +
-カスタムプラグインはコミュニティでサポートされており、からダウンロードできます https://automationstore.netapp.com/home.shtml["NetApp Storage Automation Store の略"^]。
+カスタムプラグインはコミュニティでサポートされます。
 
 
 
@@ -265,7 +262,6 @@ Linux または Windows
  a| 
 カスタムプラグイン
  a| 
-https://automationstore.netapp.com/home.shtml["NetApp Storage Automation Store の略"^]
  a| 
 ファイルシステムのバックアップについては、 Plug-in for Windows を参照してください
  a| 
@@ -347,8 +343,6 @@ SAN デバイス上に構築された SAN ネイティブデバイス、ファ�
 * では、別のボリュームにバックアップセットのミラーコピーを作成し、ディスクツーディスクのバックアップレプリケーションを実行できます。
 * Windows 環境と Linux 環境の両方をサポートします。Windows 環境では、カスタムプラグインに SnapCenter Plug-in for Microsoft Windows を組み合わせて使用することで、ファイルシステムの整合性のあるバックアップを作成することができます。
 
-
-SnapCenter ソフトウェア用の MySQL 、 DB2 、 MongoDB カスタムプラグインのサンプルは、からダウンロードできます https://automationstore.netapp.com/home.shtml["NetApp Storage Automation Store の略"^]。
 
 
 NOTE: MySQL 、 DB2 、 MongoDB のカスタムプラグインは、ネットアップのコミュニティでのみサポートされます。

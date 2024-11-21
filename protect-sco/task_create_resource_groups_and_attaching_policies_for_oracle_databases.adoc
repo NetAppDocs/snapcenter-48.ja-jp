@@ -1,5 +1,5 @@
 ---
-permalink: protect-sco/task_create_resource_groups_and_attach_policies_for_oracle_databases.html 
+permalink: protect-sco/task_create_resource_groups_and_attaching_policies_for_oracle_databases.html 
 sidebar: sidebar 
 keywords: run as 
 summary: リソースグループはコンテナであり、バックアップして保護するリソースを追加します。リソースグループを使用すると、特定のアプリケーションに関連付けられているすべてのデータを同時にバックアップできます。 
@@ -20,7 +20,7 @@ Oracle DBVERIFYユーティリティを使用してバックアップを検証�
 
 次の図は、データベースのリソース、リソースグループ、およびポリシーの関係を示しています。
 
-image::../media/sco_resourcegroup_policy.gif[SCO リソースグループポリシー]
+image::../media/sco_resourcegroup_policy.gif[リソースグループポリシー]
 
 .手順
 . 左側のナビゲーションペインで、*[リソース]*を選択し、リストから適切なプラグインを選択します。

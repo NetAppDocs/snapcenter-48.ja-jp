@@ -203,7 +203,7 @@ PowerShellコマンドレットの詳細については、SnapCenterコマンド
 
 
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2885482["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+https://docs.netapp.com/us-en/snapcenter-cmdlets-48/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]です。
 
 
 

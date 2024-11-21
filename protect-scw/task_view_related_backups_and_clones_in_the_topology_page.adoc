@@ -67,7 +67,7 @@ SnapCenter Custom Plug-ins を使用している場合、プライマリスト�
 ** SnapCenter Plug-ins Package for Linux を使用していて、 Oracle Recovery Manager （ RMAN ）を使用してバックアップをカタログ化した場合、カタログ化されたバックアップの名前は変更できません。
 
 
-. クローンを削除する場合は、表でクローンを選択し、をクリックします image:../media/delete_icon.gif[""] をクリックしてクローンを削除します。
+. クローンを削除する場合は、表でクローンを選択し、image:../media/delete_icon.gif["削除アイコン"]をクリックして削除します。
 
 
 * プライマリストレージ上のバックアップとクローンを示す例 *

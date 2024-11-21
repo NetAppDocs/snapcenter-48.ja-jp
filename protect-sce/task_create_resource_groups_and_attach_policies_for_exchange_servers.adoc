@@ -99,7 +99,7 @@ SnapCenter for Microsoft Exchange Server のリソースグループに、 Snaps
 .. ドロップダウンリストから 1 つ以上のポリシーを選択します。
 +
 
-NOTE: また、 * をクリックしてポリシーを作成することもできますimage:../media/add_policy_from_resourcegroup.gif[""]*
+NOTE: **をクリックしてポリシーを作成することもできますimage:../media/add_policy_from_resourcegroup.gif["リソースグループからポリシーを追加"]。
 
 +
 
@@ -108,7 +108,7 @@ NOTE: バックアップ・ジョブ作成時に選択するサーバ上の * �
 +
 [ 選択したポリシーのスケジュールを設定 ] セクションに、選択したポリシーが一覧表示されます。
 
-.. [ 選択したポリシーのスケジュールを設定 ] セクションで、 * をクリックしますimage:../media/add_policy_from_resourcegroup.gif[""]* スケジュールを設定するポリシーの [ スケジュールの設定 *] 列。
+.. [選択したポリシーのスケジュールを設定]セクションで、スケジュールを設定するポリシーの*[スケジュールの設定]*列にある**をクリックしimage:../media/add_policy_from_resourcegroup.gif["リソースグループからポリシーを追加"]ます。
 .. [Add schedules for policy_name_] ダイアログボックスで、開始日、有効期限、頻度を指定してスケジュールを設定し、 [*OK] をクリックします。
 +
 この処理は、ポリシーに指定されている頻度ごとに実行する必要があります。設定されたスケジュールは、 [ 選択したポリシーのスケジュールの設定 ] セクションの [ 適用されたスケジュール *] 列に一覧表示されます。
@@ -126,7 +126,7 @@ NOTE: バックアップ・ジョブ作成時に選択するサーバ上の * �
 Eメール通知を利用する場合は、GUIまたはPowerShellコマンドを使用して、SMTPサーバの詳細を指定しておく必要があります `Set-SmSmtpServer`。
 
 +
-コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://library.netapp.com/ecm/ecm_download_file/ECMLP2885482["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます https://docs.netapp.com/us-en/snapcenter-cmdlets-48/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 . 概要を確認し、 [ 完了 ] をクリックします。
 

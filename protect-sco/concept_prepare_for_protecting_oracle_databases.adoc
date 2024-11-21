@@ -39,13 +39,7 @@ NOTE: SnapCenter では、異なるクラスタにある同じ名前の SVM は�
 詳細については、コマンドリファレンスガイドを参照してください。
 
 
-* SAN 環境で Oracle データベースを使用している場合は、次のガイドに記載された推奨事項に従って SAN 環境が設定されていることを確認してください。
-+
-** https://library.netapp.com/ecm/ecm_download_file/ECMLP2547957["Linux Unified Host Utilities の推奨されるホスト設定"^]
-** https://library.netapp.com/ecm/ecm_download_file/ECMLP2547958["Using Linux Hosts with ONTAP storage"^]
-** https://library.netapp.com/ecm/ecm_download_file/ECMP1119218["AIX Host Utilities の影響を受けるホスト設定"^]
-
-
+* SAN環境でOracleデータベースを使用している場合は、SAN環境がガイドに記載されている推奨事項に従って設定されていることを確認し https://library.netapp.com/ecm/ecm_download_file/ECMP1119218["AIX Host Utilities の影響を受けるホスト設定"^]てください。
 * Oracle Linux または RHEL オペレーティングシステムの LVM で Oracle データベースを使用している場合は、最新バージョンの論理ボリューム管理（ LVM ）をインストールします。
 * SnapManager for Oracle を使用していて、 SnapCenter Plug-in for Oracle Database に移行する場合は、 sccli コマンド sc-migrate を使用して、プロファイルを SnapCenter のポリシーおよびリソースグループに移行できます。
 * バックアップレプリケーションが必要である場合は、 ONTAP で SnapMirror と SnapVault を設定します
