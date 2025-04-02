@@ -25,4 +25,4 @@ SnapCenter Plug-in for SQL Serverが停止した場合は、次の手順を実�
 
 
 .を参照してください。
-を参照してください link:https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["ディザスタリカバリ API"^] ビデオ：
+ビデオを参照してください link:https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["ディザスタリカバリ API"^] 。
