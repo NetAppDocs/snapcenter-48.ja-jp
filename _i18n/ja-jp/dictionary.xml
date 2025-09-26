@@ -3658,7 +3658,6 @@ SLM の詳細については、を参照してください<block ref="cb74c6abbb
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">SQL Server に対して sysadmin 権限を持つユーザが必要です。</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">SnapCenter Plug-in for Microsoft SQL Server は Microsoft VDI Framework を使用しますが、これには sysadmin アクセスが必要です。</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Microsoft のサポート記事 2926557 ：「 SQL Server VDI backup and restore operations require Sysadmin privileges</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="6f4630c11483dcb4143ae30dadd50487" category="list-text">Windows ホストにプラグインをインストールする場合、ビルトインでないクレデンシャルを指定する場合、またはユーザがローカルワークグループユーザに属している場合は、ホストで UAC を無効にする必要があります。</block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">SnapManager for Microsoft SQL Server がインストールされている場合は、サービスとスケジュールを停止または無効にしておく必要があります。</block>
   <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">バックアップジョブまたはクローンジョブを SnapCenter にインポートする予定の場合は、 SnapManager for Microsoft SQL Server をアンインストールしないでください。</block>
@@ -5220,8 +5219,6 @@ SnapCenter ユーザー・インターフェイスからログ・ファイルを
   <block id="e729f7885b63addbf250ef2f33329efb" category="paragraph">プラグインがサーバのホスト名を解決できない場合は、各プラグインホストにログインし、新しいIPのetc/hostエントリを&lt;New IP&gt; SC_Server_Name形式で追加します。
 例：<block ref="787ca03a3d14e5cce46cedf0bba7ac2b" prefix=" " category="inline-code"></block></block>
   <block id="421f836e09d607d08dad463276b0c52e" category="paragraph">サーバの /etc/hosts エントリはリストアされません。DR バックアップフォルダから手動でリストアできます。</block>
-  <block id="cf6d86307a7decebf79e2175ef2bc96f" category="inline-link">SnapCenter を別のサーバに移行する方法</block>
-  <block id="40b06602d6310e9f595ec07f57b84775" category="admonition">F5セットアップの場合、リストア処理はスタンドアロンとして実行されます。F5を再度作成するには、一連のコマンドを実行する必要があります。を参照してください。リンク：<block ref="fb5c34144d693d79610d99e63e5e4e12" category="inline-link-rx"></block></block>
   <block id="d51a9a84121a4ca319f6f0b5d481f073" category="admonition">DRのリストア後にホストが追加されますが、プラグインを手動でインストールする必要があります。</block>
   <block id="2dce035ff36be1c01663c842167acf77" category="admonition">リポジトリのバックアップスケジュールは、SnapCenter Plug-in for WindowsをインストールしてサーバマシンにネットアップLUNを接続した場合にのみリストアされます。</block>
   <block id="90969e9b7bcd66fedcf0339db7d5e13e" category="admonition">DLLが破損している場合は、SnapCenterサーバを修復したり、問題のあるインストールを修正したりできます。</block>
@@ -8304,4 +8301,6 @@ SMBR の使用方法については、を参照してください<block ref="ec4
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">ビデオを参照してください <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block> 。</block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">詳細については、ビデオを参照して<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>ください。</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="743e97989091f05772e454accc001020" category="list-text">VM が破損している場合は、別の VM または同じ名前のマシンを起動し、同じバージョンのSnapCenter Server をインストールします。</block>
 </blocks>
