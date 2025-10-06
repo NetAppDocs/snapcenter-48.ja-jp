@@ -4627,10 +4627,8 @@ Windowsホスト、または別のWindowsホスト（またはその逆）はサ
   <block id="ad5726653853fba2b5d98515c638da77" category="list-text">オンプレミスで保護：</block>
   <block id="3b5d218d734c41cfe8d9efd5e6fc8373" category="list-text">ONTAP FAS または AFF のプライマリシステム上にあり、 ONTAP FAS または AFF のセカンダリシステムにレプリケートされるデータ</block>
   <block id="7deab53ede49d0d1a58c65f2e25ff259" category="list-text">ONTAP Select プライマリシステム上のデータ</block>
-  <block id="6c27677d6e913bc79948a8f54acbd25c" category="list-text">ONTAP FAS またはAFF プライマリ/セカンダリシステム上にあり、ローカルStorageGRID オブジェクトストレージに保護されているデータ（ネットアップのBlueXPクラウドバックアップ統合を使用）</block>
   <block id="bc549d53e5e7a7aeb8a41511751a99f2" category="list-text">ハイブリッドクラウドのオンプレミスで以下を保護：</block>
   <block id="88ff864aa61d80e2b8a79a0f91b36f3b" category="list-text">ONTAP FAS またはAFF プライマリシステム上にあり、Cloud Volumes ONTAP にレプリケートされるデータ</block>
-  <block id="4715420841b96150a5fff8e31c55eeb2" category="list-text">ONTAP FAS またはAFF のプライマリシステムとセカンダリシステム上にあり、クラウド上のオブジェクトストレージとアーカイブストレージに保護されているデータ（NetApp BlueXP Cloud Backup統合を使用）</block>
   <block id="ca5570a253e3c0a27562c65c06bb6125" category="list-text">パブリッククラウドで次のデータを保護：</block>
   <block id="b340c2b4a7a978a510c8ebb351622143" category="list-text">Cloud Volumes ONTAP （旧 ONTAP Cloud ）プライマリシステム上のデータ</block>
   <block id="b380e442ff5c6e48e283af8b6f99806f" category="list-text">Amazon FSX for ONTAP 上にあるデータ</block>
@@ -8303,4 +8301,6 @@ SMBR の使用方法については、を参照してください<block ref="ec4
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">詳細については、ビデオを参照して<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>ください。</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
   <block id="743e97989091f05772e454accc001020" category="list-text">VM が破損している場合は、別の VM または同じ名前のマシンを起動し、同じバージョンのSnapCenter Server をインストールします。</block>
+  <block id="f9273a868771a3333fc3bdb0685a4953" category="list-text">ONTAP FASまたはAFFプライマリおよびセカンダリ システム上に存在し、 NetAppバックアップおよびリカバリ統合を使用してローカルのStorageGRIDオブジェクト ストレージに保護されているデータ</block>
+  <block id="a06b252ea7fd1b7f59b0d865f1b52021" category="list-text">ONTAP FASまたはAFFプライマリおよびセカンダリ システム上に存在し、 NetApp のバックアップとリカバリの統合を使用してクラウド内のオブジェクトおよびアーカイブ ストレージに保護されているデータ</block>
 </blocks>
